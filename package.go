@@ -1,5 +1,3 @@
-// +build ignore
-
 // Package forcegx is intentionally invalid and exists *purely* to force the use
 // of gx.
 //
@@ -7,3 +5,5 @@
 // version of this package that exists in `gx`; that version is valid (and
 // empty).
 package forcegx
+
+const _ = USE_GX___PLEASE_READ_THE_README
